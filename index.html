@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="app.js"></script>
+    <title>Document</title>
+    
+<script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCL8s1NnOD_hBBwwSLbO7TXANpsIEdhrys",
+    authDomain: "fb-developer.firebaseapp.com",
+    databaseURL: "https://fb-developer.firebaseio.com",
+    projectId: "fb-developer",
+    storageBucket: "fb-developer.appspot.com",
+    messagingSenderId: "1086333931301"
+  };
+  firebase.initializeApp(config);
+</script>
+</head>
+<body>
+    <h1>FaceBook Login</h1>
+    <button onclick="fbLogin()">Login to FaceBook </button >
+</body>
+</html>
